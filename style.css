@@ -223,7 +223,6 @@ nav h1{
     width: 1140px;
     height: 463px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-top: 80px;
 }
 .target-content{
@@ -245,7 +244,6 @@ nav h1{
 .target-items{
     width: 1140px;
     height: 340px;
-    border: 2px solid red;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -255,7 +253,6 @@ nav h1{
 .target-1{
     width: 300px;
     height: 310px;
-    border: 2px solid red;
     padding: 10px;
 }
 .target-1 h1{
@@ -271,4 +268,13 @@ nav h1{
 }
 .target-1 a{
     color:black ;
+}
+.target-background-1{
+    background-color: rgba(250, 235, 215, 0.555);
+}
+.target-background-2{
+    background-color:rgba(127, 255, 212, 0.226);
+}
+.target-background-3{
+    background-color: rgba(250, 235, 215, 0.555);
 }
