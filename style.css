@@ -45,6 +45,7 @@ nav h1{
     background-image: url(./images/Hero-bg.png);
     background-size: cover;
     padding: 15px;
+   
 }
 .header-banner-content{
     width: 998px;
@@ -87,4 +88,92 @@ nav h1{
     font-size: 20px;
     border: none;
     cursor: pointer;
+}
+/* second-part-design */            
+
+.why-web-development{
+    width: 1140px;
+    height: 1300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.web-content{
+    width: 1000px;
+    height: 1280px;
+    margin: 50px auto;
+}
+.web-title{
+    width: 902px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+.web-title h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.web-title p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: rgb(13, 19, 33);
+}
+.coading-cointainer{
+    width: 902px;
+    height: 1129px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.coding-content-1{
+    width: 900px;
+    height: 350px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.coding-title{
+    width: 477px;
+    height: 219px;
+    
+}
+.coding-title h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 10px;
+}
+.coding-title p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    text-align: left;
+    margin-bottom: 20px;
+}
+.coding-title button{
+    width: 171px;
+    height: 47px;
+    border: 1px solid rgba(13, 19, 33, 0.575);
+    font-size: large;
+}
+.coading-img{
+    width: 200px;
+    height: 220px;
+}
+.coding-content-2{
+    width: 900px;
+    height: 350px;
+    margin-top: 10px;
+    padding: 40px;
+  
+}
+.coding-title-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
 }
