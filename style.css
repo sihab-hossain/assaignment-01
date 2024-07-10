@@ -258,23 +258,83 @@ nav h1{
 .target-1 h1{
     font-size: 24px;
     font-weight: 800;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 15px 0;
 }
 .target-1 p{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .target-1 a{
     color:black ;
 }
 .target-background-1{
-    background-color: rgba(250, 235, 215, 0.555);
+    background-color: rgba(250, 235, 215, 0.432);
 }
 .target-background-2{
-    background-color:rgba(127, 255, 212, 0.226);
+    background-color:rgba(127, 255, 212, 0.178);
 }
 .target-background-3{
-    background-color: rgba(250, 235, 215, 0.555);
+    background-color: rgba(250, 235, 215, 0.432);
+}
+
+/* support-section */
+
+.support{
+    width: 1140px;
+    height: 380px;
+    border-radius: 20px;
+    margin: 50px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.39)),url(./images/handshake.jpg) ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-content{
+    width: 1044px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.support-content h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin: 15px 0 20px 0;
+}
+.support-content p{
+    width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.623);
+    text-align: justify;
+}
+.submit{
+    width: 700px;
+    height: 58px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+#text{
+    width: 550px;
+    height: 50px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    font-size: 15px;
+}
+#submit-btn{
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 15px;
+    
 }
