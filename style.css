@@ -273,7 +273,7 @@ nav h1{
     background-color: rgba(250, 235, 215, 0.432);
 }
 .target-background-2{
-    background-color:rgba(127, 255, 212, 0.178);
+    background-color:rgba(127, 255, 212, 0.185);
 }
 .target-background-3{
     background-color: rgba(250, 235, 215, 0.432);
@@ -337,4 +337,28 @@ nav h1{
     background: rgb(255, 255, 255);
     font-size: 15px;
     
+}
+/* footer-design */
+.footer{
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.footer-content{
+    width: 1140px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-title h1{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+}
+.footer-icons{
+    display: flex;
+    gap: 20px;
 }
